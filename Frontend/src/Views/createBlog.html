@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Content/index.css">
+</head>
+
+<body>
+    <div id="writePost">
+        <div class="large-outer-container ">
+            <h1>Perficient University</h1>
+            <div class="grid-menu-bar ">
+                <a href="index.html">Home</a>
+                <a href="pageNotFound.html">College of Computing and Digital Media</a>
+                <a href="pageNotFound.html">College of Education</a>
+                <a href="pageNotFound.html">College of Law</a>
+                <a href="pageNotFound.html">School of Music</a>
+            </div>
+            <div>
+                <a class="sign-in-link" id="logout">Log Out</a>
+                <div class="large-inner-container ">
+                    <h2>Write a Blog Post</h2>
+                    <h3>Title:</h3><input id="titleInput" type="text" maxlength="4000 "><br><br>
+                    <h3>Image Link:</h3><input id="imageInput" type="text" maxlength="4000 "><br><br>
+                    <h3>Body:</h3><textarea id="blogInput" rows="30 " cols="120 " maxlength="4000 "></textarea><br>
+                    <button id="blogSubmit" style="margin-bottom: 10px;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../Scripts/loginController.js"></script>
+    <script type="module" src="../Scripts/createBlogController.js"></script>
+</body>
+
+</html>

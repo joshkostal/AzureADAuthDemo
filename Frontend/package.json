@@ -1,0 +1,12 @@
+{
+  "name": "demo-test",
+  "version": "1.0.0",
+  "description": "Demoing the Azure AD Authentication blog post",
+  "main": "index.js",
+  "author": "Josh Kostal",
+  "license": "MIT",
+  "dependencies": {
+    "adal-angular": "^1.0.17",
+    "http-server": "^0.11.1"
+  }
+}
