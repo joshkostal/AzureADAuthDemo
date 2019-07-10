@@ -1,8 +1,8 @@
 # Azure Active Directory Authentication Demo
 
-I've created a simple example to show how to implement Azure Active Directory Authentication in a ASP.NET Core Web API.
+I've created a simple example to show how to implement Azure Active Directory in a ASP.NET Core Web API.
 
-When it is published, I will link the accompanying blog post, which will feature the steps needed to secure your own Web API.
+To see the steps I took to implement this, click [here](https://blogs.perficientdigital.com/2019/07/10/securing-your-web-api-using-azure-active-directory/).
 
 # Technology Stack
 
